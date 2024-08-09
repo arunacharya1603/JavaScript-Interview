@@ -1,0 +1,31 @@
+<!-- // DOM element and update -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .item{
+            font-size: 20px;
+            margin: 10px 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="item">Item 1</div>
+    <div class="item">Item 2</div>
+    <div class="item">itwm 3</div>
+
+    <script>
+        const elements = document.querySelectorAll('.item');
+        const data = ['apple','banana','cherry'];
+
+        elements.forEach((element, index)=>{
+            element.textContent = data[index];
+        })
+    </script>
+</body>
+
+</html>
