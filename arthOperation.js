@@ -65,4 +65,8 @@ console.log(+[1]); //1
 console.log(+[1, 2]); //NaN
 console.log(+[1, 2, 3]); //NaN
 console.log(+[1, 2, 3, 4]); //NaN
-
+console.log(typeof NaN);
+//In JavaScript, the typeof operator returns a string indicating the type of the unevaluated operand.
+//For numbers, whether they are integers, floating-point numbers, or special values like NaN, the typeof operator always returns "number".
+//This is because JavaScript does not differentiate between different kinds of numbers. Even invalid operations that result in NaN are still considered to produce a number type.
+console.log('5'-'3'+6);
