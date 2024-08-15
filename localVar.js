@@ -6,3 +6,6 @@
 })();
 
 console.log(localVar);
+
+
+// In this example, localVar is only accessible within the {} block, preventing it from polluting the outer scope.
