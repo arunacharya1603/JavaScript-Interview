@@ -14,4 +14,4 @@ person.greet.apply(anotherPerson,["Hello"]);
 
 const boundGreet = person.greet.bind(anotherPerson);
 boundGreet('John');
-// Output: John, my name is Doe
+// Output: John, my name is D
